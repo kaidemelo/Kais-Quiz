@@ -1,0 +1,6 @@
+c:\users\we\documents\visual studio 2017\Projects\C sharp stuff\C sharp stuff\bin\Debug\C sharp stuff.exe.config
+c:\users\we\documents\visual studio 2017\Projects\C sharp stuff\C sharp stuff\bin\Debug\C sharp stuff.exe
+c:\users\we\documents\visual studio 2017\Projects\C sharp stuff\C sharp stuff\bin\Debug\C sharp stuff.pdb
+c:\users\we\documents\visual studio 2017\Projects\C sharp stuff\C sharp stuff\obj\Debug\C sharp stuff.csprojResolveAssemblyReference.cache
+c:\users\we\documents\visual studio 2017\Projects\C sharp stuff\C sharp stuff\obj\Debug\C sharp stuff.exe
+c:\users\we\documents\visual studio 2017\Projects\C sharp stuff\C sharp stuff\obj\Debug\C sharp stuff.pdb

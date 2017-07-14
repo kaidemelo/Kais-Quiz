@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<!--
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+<html>
+    <head>
+        <!--
+        Customize this policy to fit your own app's needs. For more guidance, see:
+            https://github.com/apache/cordova-plugin-whitelist/blob/master/README.md#content-security-policy
+        Some notes:
+            * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
+            * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
+            * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
+                * Enable inline JS: add 'unsafe-inline' to default-src
+        -->
+        <link rel="icon" href="C:\Users\we\Documents\App\www\img\favicon.ico">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <title>Kai's Quiz</title>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/jquery-3.2.1.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+    </head>
+	<audio controls autoplay loop="loop">
+	<source src=".\img\stilldre.mp3" type="audio/mp3">
+	</audio> 
+    <body>
+        <h1>Kai's Quiz</h1>
+        <div class="app">
+
+        <div id="quiz" ></div>
+        <button id="answerButton" type="button">Show Answer</button>
+        <button id="nextButton" type="button">Next Question</button>
+        <div id="answer"></div>
+        </div>
+        <div class="snoopdiv">
+        <img id="snoop" src=".\img\snoop.gif">
+        </div>
+        <div class="snoopdiv2">
+        <img id="snoop2" src=".\img\snoop.gif">
+        </div>
+        <div id="container">
+	<div class='a' id="thug" style="position: fixed;"> <img id="thugimg" src=".\img\thug.png"> </div>
+	<div class='b' id="thug2" style="position: fixed;"> <img id="thugimg2" src=".\img\thug.png"></div>
+    <div class='c' id="thug3" style="position:fixed;"> <img id="thugimg3" src=".\img\thug.png"></div>
+</div>​
+<div id="sound_element"></div>
+    </body>
+</html>
